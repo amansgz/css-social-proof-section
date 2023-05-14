@@ -29,6 +29,7 @@ function createStars() {
 	for (let i= 0; i < 5; i++) {
 		stars[i] = document.createElement('img');
 		stars[i].src = "./css/images/icon-star.svg";
+		stars[i].alt = "icon star";
 		stars[i].style.paddingRight = '5px';
 
 		starsDiv.append(stars[i]);
