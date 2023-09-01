@@ -1,10 +1,4 @@
-# 👩‍💻 Frontend Mentor - Social proof section
-
-[Frontend Mentor challenges](https://www.frontendmentor.io/) help you improve your coding skills by building realistic projects.
-
-This is a solution for [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) challenge.
-
-![Design preview for the Social proof section](./css/images/preview.png)
+# 👩‍💻 Social proof section
 
 
 ## The challenge
@@ -23,10 +17,19 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript 
 
-## Live site solution
 
-[Live site](https://amansgz.github.io/css-social-proof-section/) deployed with GitHub Pages.
+<div>
+  <h3>
+    <a href= "https://amansgz.github.io/css-social-proof-section/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Author
+![Design preview for the Social proof section](./css/images/preview.png)
 
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
