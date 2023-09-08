@@ -9,14 +9,14 @@ function createItem(rated_text) {
 
 		const text = document.createElement('p');
 		text.textContent = item;
-		text.classList.add('rated-text');
+		text.classList.add('rate__text');
 
-		const divRate = document.createElement('div');
-		divRate.append(stars, text);
-		divRate.classList.add('divRate')
+		const rate__container = document.createElement('div');
+		rate__container.append(stars, text);
+		rate__container.classList.add('rate__container')
 
-		rates.append(divRate);
-		rates.classList.add('rates-column-center');
+		rates.append(rate__container);
+		rates.classList.add('column-center');
 	});
 }
 

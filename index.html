@@ -1,102 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png" />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
   <!-- Fonts 400, 500, 700 -->
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./css/styles.css">
-  
+  <!-- SCRIPTS -->
   <script src="./scripts/script.js" defer></script>
-
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Frontend Mentor | Social proof section</title>
 </head>
 
 <body>
-  <div class="container" role= "contentinfo">
-    <header class="header">
-      <h1 class="header__title">
-        10,000+ of our <br /> users love our <br /> products.
-      </h1>
-      <p class="header__subtitle">
-        We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
-      </p>
-    </header>
+<main>
+  <section class= "intro__section">
+    <div class= "intro__container">
+      <div class= "content">
+        <h1 class= "content__title">
+          10,000+ of our <br> users love our <br> products.
+        </h1>
+        <p class= "content__text">
+          We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
+        </p>
+      </div>
 
-    <div id="rates"></div>
+      <div class= "rates__container" id="rates"></div>
 
-    <main class="testimonials">
-      <article class="testimonial">
-        <header class="testimonial__header">
+    </div><!-- end of intro container -->
+  </section>
+
+  <section class= "testimonials__section">
+    <div class= "testimonials__container">
+      <article class= "card">
+        <div class= "card__header">
+          <figure class= "customer__photo">
           <img 
-            src="./css/images/image-colton.jpg" 
-            alt="photo customer" 
-            class="customer__avatar">
-          <div class="customer">
-            <h2 class="customer__name">
+            src= "./css/images/image-colton.jpg" 
+            alt= "customer">
+          </figure>  
+          <div class= "wrapper">
+            <h2 class= "customer__name">
               Colton Smith
             </h2>
-            <p class="customer__title">
+            <p class= "customer__title">
               Verified Buyer
             </p>
           </div>
-        </header>
-        <blockquote class="testimonial__quote">
+        </div>
+        <blockquote class= "customer__quote">
           "We needed the same printed design as the one we had ordered a week
           prior. Not only did they find the original order, but we also received it in time.
           Excellent!"
         </blockquote>
       </article>
 
-      <article class="testimonial">
-        <header class="testimonial__header">
-          <img 
-            src="./css/images/image-irene.jpg" 
-            alt="photo customer" 
-            class="customer__avatar">
-          <div class="customer">
-            <h2 class="customer__name">
+      <article class= "card">
+        <div class= "card__header">
+          <figure class= "customer__photo">
+            <img 
+              src= "./css/images/image-irene.jpg" 
+              alt= "customer">
+            </figure>    
+          <div class= "wrapper">
+            <h2 class= "customer__name">
               Irene Roberts
             </h2>
-            <p class="customer__title">
+            <p class= "customer__title">
               Verified Buyer
             </p>
           </div>
-        </header>
-        <blockquote class="testimonial__quote">
+        </div>
+        <blockquote class= "customer__quote">
           "Customer service is always excellent and very quick turn around.
           Completely delighted with the simplicity of the purchase and the speed of delivery."
         </blockquote>
       </article>
 
-      <article class="testimonial">
-        <header class="testimonial__header">
-          <img 
-            src="./css/images/image-anne.jpg" 
-            alt="photo customer" 
-            class="customer__avatar">
-          <div class="customer">
-            <h2 class="customer__name">
+      <article class= "card">
+        <div class= "card__header">
+          <figure class= "customer__photo">
+            <img 
+              src= "./css/images/image-anne.jpg" 
+              alt= "customer">
+            </figure>    
+          <div class= "wrapper">
+            <h2 class= "customer__name">
               Anne Wallace
             </h2>
-            <p class="customer__title">
+            <p class= "customer__title">
               Verified Buyer
             </p>
           </div>
-        </header>
-        <blockquote class="testimonial__quote">
+        </div>
+        <blockquote class= "customer__quote">
           "Put an order with this company and can only praise them for the very
           high standard. Will definitely use them again and recommend them to everyone!"
         </blockquote>
-      </article>      
-  </main>
-  
-</div>
+      </article>
+    </div> <!-- end of testimonials container  -->
+  </section>
+</main>
+<footer class= "footer">
+  <small class= "footer__attribution">
+    Challenge by 
+    <a href= "https://www.frontendmentor.io?ref=challenge" 
+      target= "_blank">
+      Frontend Mentor
+    </a><br>
+    Coded by 
+    <a href= "https://github.com/amansgz"
+      target= "_blank">
+      @amansgz
+    </a>
+  </small>
+</footer>
 </body>
-
 </html>
