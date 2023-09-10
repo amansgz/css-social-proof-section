@@ -7,7 +7,7 @@
   --white: hsl(0, 0%, 100%);
 
   /* PADDINGS */
-  --inline-padding: clamp(8rem, calc(8rem + ((1vw - 0.32rem) * 5.7361)), 14rem);
+  --inline-padding: clamp(6rem, calc(6rem + ((1vw - 0.32rem) * 3.8241)), 10rem);
 }
 *,
 *:before,
@@ -38,7 +38,7 @@ body {
  INTRO SECTION
 /************************/
 .intro__section {
-  padding: 10rem 2rem 2rem;
+  padding: 10rem 1rem 2rem;
 }
 .content {
   display: flex;
@@ -85,7 +85,7 @@ body {
   TESTIMONIALS SECTION
 /**********************************/
 .testimonials__section {
-  padding: 6rem 2rem 6rem;
+  padding: 6rem 1rem 6rem;
 }
 .testimonials__container {
   display: flex;
